@@ -1,0 +1,47 @@
+Banking Application - Using core Java
+
+Two Types Users:(Entities/Models)
+i)Bank Employee
+ii)Bank Account Holder(User)
+
+
+Database :(3 tables)
+1.Bank_Employee(b_id,b_name,password)
+2.Bank_User(accId,accName,address,avail_balance,password)
+3.Transaction(tid,accid,amount,transaction-type,date)
+
+
+Operations:
+Bank_Employee -> openAccount(),checkUserAccountDetails(),login(),logout(),changePassword(),removeUser(),UpdateUserDetails(),dipositAmount()
+bank_user -> login(),logout(),deposit(),withdraw(),checkProfile(),checkAvailBalance(), updateDetails(),fundTranser()
+
+
+Employee -> validate the login(userid/password) -> show the menu
+
+1.openAccount
+2.checkUserAccountDetails
+3.changePassword
+4.removeUser
+5.UpdateUserDetails
+6.dipositAmount
+7.Logout
+
+
+bank User->validate the login(userid/password) ->show the menu
+
+1.deposit Amount
+2.withdraw
+3.checkProfile
+4.checkAvailBalance
+5.updateDetails
+6.fundTransfer
+7.Recent transaction details
+7.logout
+
+
+
+
+
+
+
+

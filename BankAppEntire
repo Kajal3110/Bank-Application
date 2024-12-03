@@ -1,0 +1,35 @@
+Bank Application:
+
+i)  Bank Employee
+ii) User
+
+Mysql DB:
+
+i)Bemployee(buserid,password,ename)  ->OpenAccount(), UpdateAccount(), DeleteAccount(), CheckUserInfo()
+ii)Buser(acid, acname, availBal, address, password,phone,email) ->login(), logout(), withdraw(),deposit(), checkbalance(),UpdateDetails()
+iii)Transaction(tid,acid,amount,transactionType,date)
+
+Menu for Bank user:
+
+UserId:
+Password:
+
+1.withdraw
+2.deposit
+3.checkbalance
+4.recentTransactionList
+4.change Password
+5.Logout
+
+
+Menu for Bank Employee:
+
+UserId:
+Password:
+
+1.Open Account
+2.Delete Account
+3.Check UserInfo
+4.Password Change
+5.Logout
+
